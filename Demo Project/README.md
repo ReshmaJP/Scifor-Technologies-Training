@@ -1,19 +1,19 @@
 # Breast Cancer Classification using Deep Learning
 Objective:<br>
-Our objective is to diagnose the possibility of Breast Cancer using Deep Learning method, based on the data collected from the Fine Needle Aspiration Test.
+Our objective is to diagnose the possibility of Breast Cancer using Deep Learning method, based on the data collected from the Fine Needle Aspiration Test.<br>
 
-Required Libraries (Main Code):
-Imported Libraries,
-import tensorflow as tf
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import plotly.express as px
+Required Libraries (Main Code):<br>
+Imported Libraries,<br>
+import tensorflow as tf<br>
+import pandas as pd<br>
+import numpy as np<br>
+import matplotlib.pyplot as plt<br>
+import seaborn as sns<br>
+import plotly.express as px<br>
 
-from sklearn.datasets import load_breast_cancer
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+from sklearn.datasets import load_breast_cancer<br>
+from sklearn.model_selection import train_test_split<br>
+from sklearn.preprocessing import StandardScaler<br>
 
 For Installation,
 Tensor Flow - pip install tensorflow
