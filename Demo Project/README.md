@@ -15,40 +15,41 @@ from sklearn.datasets import load_breast_cancer<br>
 from sklearn.model_selection import train_test_split<br>
 from sklearn.preprocessing import StandardScaler<br>
 
-For Installation,
-Tensor Flow - pip install tensorflow
-plotly - pip install plotly
+For Installation,<br>
+Tensor Flow - pip install tensorflow<br>
+plotly - pip install plotly<br>
 
-Required Libraries (Web Application):
-import streamlit as st
-import time
-import tensorflow as tf
-import pandas as pd
-import matplotlib
-matplotlib.use('agg')
-#import matplotlib.pyplot as plt
-#import numpy as np
+Required Libraries (Web Application):<br>
+import streamlit as st<br>
+import time<br>
+import tensorflow as tf<br>
+import pandas as pd<br>
+import matplotlib<br>
+matplotlib.use('agg')<br>
+#import matplotlib.pyplot as plt<br>
+#import numpy as np<br>
 
-from sklearn.datasets import load_breast_cancer
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
+from sklearn.datasets import load_breast_cancer<br>
+from sklearn.model_selection import train_test_split<br>
+from sklearn.preprocessing import StandardScaler<br>
 
-For Installation,
-Streamlit - pip install streamlit
+For Installation,<br>
+Streamlit - pip install streamlit<br>
 
-Description:
-Data Source: https://goo.gl/U2Uwz2
-This data consist of 30 Features and 569 Instances. Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. 
+Description:<br>
+Data Source: https://goo.gl/U2Uwz2<br>
+This data consist of 30 Features and 569 Instances. Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.<br> 
+They describe characteristics of the cell nuclei present in the image.<br>
 
-Model Building and Training:
-Built an Artificial Neural Network by means of Tensorflow's Keras API to predict the possibility of Breast Cancer.
-Train Score - Loss:0.1067, Accuracy:0.9790
-Test Score - Loss:0.0992, Accuracy:0.9734
+Model Building and Training:<br>
+Built an Artificial Neural Network by means of Tensorflow's Keras API to predict the possibility of Breast Cancer.<br>
+Train Score - Loss:0.1067, Accuracy:0.9790<br>
+Test Score - Loss:0.0992, Accuracy:0.9734<br>
 
-Model Deployment:
-Developed a web application using Streamlit.
+Model Deployment:<br>
+Developed a web application using Streamlit.<br>
 
-Dashboard Link:
+Dashboard Link:<br>
 https://reshma-jp-bcc-dl.streamlit.app/
 
 
