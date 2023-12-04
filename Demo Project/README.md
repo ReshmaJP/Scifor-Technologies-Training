@@ -38,8 +38,7 @@ Streamlit - pip install streamlit<br>
 
 **Description:**<br>
 Data Source: https://goo.gl/U2Uwz2<br>
-This data consist of 30 Features and 569 Instances. Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.<br> 
-They describe characteristics of the cell nuclei present in the image.<br>
+This data consist of 30 Features and 569 Instances. Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image.<br>
 
 **Model Building and Training:**<br>
 Built an Artificial Neural Network by means of Tensorflow's Keras API to predict the possibility of Breast Cancer.<br>
