@@ -29,8 +29,7 @@ st.markdown(
 
 @st.cache_data()
 def load_data():
-    # Your existing code
-    # Your existing code
+  
     # Load Breast Cancer dataset
     data = load_breast_cancer()
     df = pd.DataFrame(data.data, columns=data.feature_names)
@@ -43,9 +42,7 @@ def load_data():
 
 @st.cache_data()
 def build_model(X_train, y_train, X_test, y_test):
-    # Your existing code
-    # Your existing code
-
+    
     # Scale the data
     scaler = StandardScaler()
     X_train = scaler.fit_transform(X_train)
